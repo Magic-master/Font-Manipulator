@@ -31,4 +31,9 @@ function gotPoses(results) {
 
 function draw() {
     background('#6c91c2');
+
+    document.getElementById("font_size").innerHTML = "Font size of the text will be = " + difference + "px";
+    textSize(difference);
+    fill('#FFE787');
+    text('Aahan and Nevaan', 50, 400);
 }
